@@ -4,17 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Montserrat;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #011638;
+            border-radius: 15%;
+            color: #fff;
+            line-height: 20px;
+            font-weight: 600;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .picture {
+            padding: 20px;
+        }
+    </style>
     <title>Samuel G.</title>
 </head>
-<body>
+<body> 
+    <!-- CABEÇALHO -->
     <h1>Samuel Monteiro Gonçalves</h1>
-    <a href="#main-skills">Principais Habilidades</a>
-    <a href="#sub-skills">Outras Habilidades</a>
+    <a class="button" href="#main-skills">Principais Habilidades</a>
+    <a class="button" href="#sub-skills">Outras Habilidades</a>
     <br>
-    <img id="foto" src="eu.jpg" alt="Samuel M. Gonçalves sorrindo" width="250px">
-    <p>Brasileiro, 21 Anos | Maricá - RJ | Estudante de Desenvolvimento na Trybe|
+    <img class="picture" id="foto" src="eu.jpg" alt="Samuel M. Gonçalves sorrindo" width="250px">
+    <p>Brasileiro, 21 Anos | Maricá - RJ | Estudante de Desenvolvimento na Trybe
     </p>
+    <hr>
 
+    <!-- CORPO -->
     <p id="main-skills">
         <strong>Principais Habilidades</strong>
         <ul>
@@ -32,8 +58,10 @@
             <li>Básico de HTML</li>
         </ul>
     </p>
+    <hr>
 
+    <!-- RODAPÉ -->
     <p>Blog da <a href="https://blog.rocketseat.com.br/" target="_blank">Rocketseat</a> que curto bastante</p>
-    <a href="#foto">Minha Foto</a>
+    <a class="button" href="#foto">Minha Foto</a>
 </body>
 </html>
