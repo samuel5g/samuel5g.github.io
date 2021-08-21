@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #DCD6F7;
+  color: #424874;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+ul {
+  padding: 0px 40px;
+}
+
+#rocketseat {
+  text-decoration: none;
+  font-weight: 600;
+  color: #424874;
+}
+
+.button {
+  background-color: #424874;
+  border-radius: 8px;
+  color: #D6E5E3;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.picture {
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.header {
+
+}
+
+.header-title {
+  color: #424874;
+  font-weight: 600;
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.header-title h1 {
+  margin-top: 10px;
+  margin-bottom: 20px; 
+}
+
+
+.content {
+
+}
+
+.footer {
+
+}
