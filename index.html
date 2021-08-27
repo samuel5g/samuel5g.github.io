@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Samuel G.</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Samuel G.</title>
 </head>
 <body> 
-    <!-- CABEÇALHO -->
-    <div class="header">
-
-        <div class="header-title">
-            <h1>Samuel Monteiro Gonçalves</h1>
-            <a class="button" href="#main-skills">Principais Habilidades</a>
-            <a class="button" href="#sub-skills">Outras Habilidades</a>
-
-        </div>
-
-        <div class="header-about">
-
-            <div class="header-about-content"><img id="foto" src="eu.jpg" alt="Homem sorrindo para a foto na sacada de um apartamento" width="250px"></div>
-
-            <div class="header-about-content">
-                <p>Brasileiro, 21 Anos | Maricá - RJ | Estudante de Desenvolvimento Web na Trybe  <br>
-                    Gosto de jogar, consumir conteúdos geek/nerd e de <em>codar</em> muito 😆</p>
-            </div> 
-        </div>
+  <!-- CABEÇALHO -->
+  <header class="cabecalho">
+    <div class="h-content">
+      <h1>Samuel Monteiro Gonçalves's <em>Portfolio</em></h1>
+      <a class="links" href="#main-skills">Principais Habilidades</a>
+      <a class="links" href="#sub-skills">Outras Habilidades</a>
     </div>
+  </header>
+  <!-- CORPO -->
+      <div class="header-about">
 
-    <!-- CORPO -->
-    <div class="content">
-        <p id="main-skills">
-            <h4 class="list-title">Principais Habilidades</h4>
-            <ul>
-                <li>Empatia</li>
-                <li>Gosto de Ajudar</li>
-                <li>Gosto de aprender tecnologias novas</li>
-            </ul>
-        </p>
-        
-        <p id="sub-skills">
-            <h4 class="list-title">Outras Habilidades</h4>
-            <ul>
-                <li>Uso básico de Git e GitHub</li>
-                <li>Básico de Unix e Shell</li>
-                <li>Básico de HTML</li>
-            </ul>
-        </p>
-    </div>
-    
+          <picture class="header-about-content"><img id="foto" src="me.jpg" alt="Homem sorrindo para a foto" width="250px"></picture>
 
-    <!-- RODAPÉ -->
-    <div class="footer">
-        <p>Blog da <a id="rocketseat" href="https://blog.rocketseat.com.br/" target="_blank">Rocketseat</a> que curto bastante</p>
-        <a class="button" href="#foto">Minha Foto</a>
-    </div>
+          <div class="header-about-content">
+              <p>Brasileiro, 21 Anos | Maricá - RJ | Estudante de Desenvolvimento Web na Trybe  <br>
+                  Gosto de jogar, consumir conteúdos geek/nerd e de <em>codar</em> muito 😆</p>
+          </div> 
+      </div>
+  </div>
+
+  
+  <div class="content">
+      <p id="main-skills">
+          <p class="list-title">Principais Habilidades</p>
+          <ul>
+              <li>Empatia</li>
+              <li>Gosto de Ajudar</li>
+              <li>Gosto de aprender tecnologias novas</li>
+          </ul>
+      </p>
+      
+      <p id="sub-skills">
+          <p class="list-title">Outras Habilidades</p>
+          <ul>
+              <li>Git e GitHub</li>
+              <li>Unix e Shell</li>
+              <li>HTML e CSS</li>
+              <li>Javascript</li>
+          </ul>
+      </p>
+  </div>
+  
+
+  <!-- RODAPÉ -->
+  <footer>
+      <p>Blog da <a class="links" id="rocketseat" href="https://blog.rocketseat.com.br/" target="_blank">Rocketseat</a> que curto bastante</p>
+      <a class="links" class="button" href="#foto">Topo</a>
+  </footer>
+
+  <script>
+    alert("Site on building")
+  </script>
 </body>
 </html>
